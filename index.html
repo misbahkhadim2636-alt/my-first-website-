@@ -1,148 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Misbah Khadim | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misbah Khadim | Python Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-body{
-margin:0;
-font-family: Arial, sans-serif;
-background:#0a0a0a;
-color:#222;
-}
-.navbar{
-background:#000;
-color:white;
-padding:15px 20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-.navbar h2{
-margin:0;
-font-size:18px;
-letter-spacing:1px;
-}
-.navbar span{
-font-size:14px;
-color:#aaa;
-}
-.hero{
-background:#000;
-color:white;
-padding:80px 20px;
-text-align:center;
-}
-.hero h1{
-font-size:40px;
-margin:0;
-}
-.hero p{
-color:#888;
-font-size:18px;
-margin-top:15px;
-letter-spacing:0.5px;
-}
-.container{
-max-width:800px;
-margin:auto;
-padding:20px;
-margin-top:-30px;
-}
-.card{
-background:white;
-padding:30px;
-margin:20px 0;
-border-radius:12px;
-}
-.card h2{
-margin-top:0;
-font-size:20px;
-color:#000;
-border-left:4px solid #000;
-padding-left:12px;
-}
-.card p{
-line-height:1.7;
-color:#444;
-}
-.skills{
-display:flex;
-flex-wrap:wrap;
-gap:10px;
-}
-.skill{
-background:#000;
-color:white;
-padding:10px 18px;
-border-radius:30px;
-font-size:14px;
-}
-.btn-row{
-text-align:center;
-margin-top:10px;
-}
-.btn{
-background:#000;
-color:white;
-padding:12px 30px;
-text-decoration:none;
-border-radius:30px;
-display:inline-block;
-font-size:14px;
-}
-.footer{
-text-align:center;
-padding:40px;
-color:#666;
-font-size:13px;
-}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0e0e0e;color:#f2f2f2; -webkit-font-smoothing: antialiased;}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:rgba(14,14,14,0.8);backdrop-filter:blur(10px);position:sticky;top:0;z-index:10;border-bottom:1px solid #1e1e1e}
+.logo{font-weight:800;letter-spacing:3px;font-size:15px}
+.nav-right{font-size:12px;color:#666;letter-spacing:1px}
+.hero{min-height:60vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:60px 8%}
+.hero h1{font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.1;margin-bottom:16px;background:linear-gradient(to bottom, #fff, #888);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{color:#888;font-size:17px;max-width:500px}
+.wrap{max-width:760px;margin:0 auto;padding:0 6% 60px}
+.box{background:linear-gradient(180deg, #171717 0%, #141414 100%);border:1px solid #232323;border-radius:20px;padding:32px;margin-bottom:22px;transition:0.3s}
+.box:hover{border-color:#333;transform:translateY(-2px)}
+.label{font-size:11px;letter-spacing:2px;color:#666;text-transform:uppercase;margin-bottom:18px;display:block}
+.box h2{font-size:19px;margin-bottom:14px;font-weight:600}
+.box p{color:#a1a1a1;font-size:15px;line-height:1.9}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.tag{background:#1f1f1f;border:1px solid #2a2a2a;padding:8px 18px;border-radius:100px;font-size:13px;color:#ccc}
+.contact-btn{display:inline-block;margin-top:18px;background:#fff;color:#000;padding:12px 28px;border-radius:100px;font-weight:600;font-size:14px;text-decoration:none}
+footer{text-align:center;padding:50px 8%;border-top:1px solid #1a1a1a;color:#444;font-size:12px;letter-spacing:1px}
 </style>
 </head>
 <body>
-
-<div class="navbar">
-<h2>MISBAH K.</h2>
-<span>Portfolio 2026</span>
-</div>
+<nav><div class="logo">MISBAH KHADIM</div><div class="nav-right">AVAILABLE FOR WORK • 2026</div></nav>
 
 <div class="hero">
 <h1>Misbah Khadim</h1>
-<p>Aspiring Python Developer | Pakistan</p>
+<p>Aspiring Python Developer from Pakistan, focused on building clean, meaningful and real-world digital products.</p>
 </div>
 
-<div class="container">
-
-<div class="card">
-<h2>About Me</h2>
-<p>Assalam-o-Alaikum. I am Misbah Khadim, a self-motivated learner from Pakistan with a strong interest in Python and Web Development. This portfolio represents my first step into the technology field. I am focused on building real-world skills and creating meaningful projects.</p>
+<div class="wrap">
+<div class="box">
+<span class="label">About Me</span>
+<h2>Assalam-o-Alaikum</h2>
+<p>I am Misbah Khadim, a self-motivated learner from Pakistan with a strong interest in Python and Web Development. This portfolio is my first step into the technology field. I believe in learning by building and creating projects that solve real problems.</p>
 </div>
 
-<div class="card">
-<h2>Skills</h2>
-<div class="skills">
-<span class="skill">Python</span>
-<span class="skill">HTML5</span>
-<span class="skill">CSS</span>
-<span class="skill">GitHub</span>
-<span class="skill">Web Development</span>
-</div>
-</div>
-
-<div class="card">
-<h2>Vision</h2>
-<p><b>Present:</b> Mastering Python and Frontend fundamentals.</p>
-<p><b>Future:</b> Becoming a professional Python Developer and building impactful digital products.</p>
-<div class="btn-row">
-<a class="btn" href="https://github.com/misbahkhadim2636-alt">View GitHub Profile</a>
+<div class="box">
+<span class="label">Expertise</span>
+<h2>Skills & Tools</h2>
+<div class="tags">
+<div class="tag">Python</div>
+<div class="tag">HTML5 & CSS3</div>
+<div class="tag">Git & GitHub</div>
+<div class="tag">Problem Solving</div>
+<div class="tag">Portfolio Design</div>
 </div>
 </div>
 
+<div class="box">
+<span class="label">Get in Touch</span>
+<h2>Let's build something together</h2>
+<p>I'm currently learning and open to collaborations, internships and new opportunities.</p>
+<a class="contact-btn" href="mailto:misbah.khadim@email.com">Contact Me</a>
+</div>
 </div>
 
-<div class="footer">
-<p>© 2026 Misbah Khadim. Built with dedication.</p>
-</div>
-
+<footer>© 2026 MISBAH KHADIM — CRAFTED WITH PASSION IN PAKISTAN</footer>
 </body>
 </html>
